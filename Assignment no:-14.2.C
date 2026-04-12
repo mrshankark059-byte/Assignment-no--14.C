@@ -2,7 +2,7 @@ Q2. Write a function to calculate simple interest. (TSRS)
 
 
 #include<stdlib.h>
-int a(int, int, int);
+float a(int, int, int);
 int main () 
 {
  int p,r,t;
@@ -13,9 +13,9 @@ int main ()
  printf("si=%.2f",si);
 }
 
-int a( int m, int n, int o) 
+float a( int m, int n, int o) 
 {
-int x;
+float x;
 x=(m*n*o)/100.0;
 return x;
 }
